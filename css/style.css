@@ -1,0 +1,218 @@
+body{margin-top:0;margin-left:0;margin-right:0;}
+body {background-color:#000;}
+a{cursor:pointer;}
+.psicologafoto{border:10px solid #fff;box-shadow: 1px 1px 10px #333;}
+.success-message{color:#1a2f4d;font-size:20px;}
+label{}
+iframe{max-height:350px;}
+.maincontent, .contact-template, .areas-template, .location-template{background-color:#fff;opacity:0.9;padding:25px;border-radius:25px;margin-bottom:115px;box-shadow: 1px 1px 5px #333;z-index:2;}
+.loading { position:fixed; left:0; top:0; width:100%; height:100%;background-color:transparent;z-index:2;background-color:#f4f4f4;
+opacity:0.7;}
+.ng-scope{z-index:10;}
+.loading .complete-loader{margin-top: 15%;margin-left: 45%;}
+.loading img{margin-left: 100px;}
+.logo-loader{background-image:url('../img/sprite.png');background-position:0px -1110px;height: 90px;}
+.img1{background-image:url('../img/sprite.png');background-position:0px -3060px;height: 50px;width: 500px;}
+/*HEADER*/
+.header{z-index: 10;}
+.header .row:first-child{margin-top:35px;}
+.modal-dialog{width:auto !important;max-width:900px;}
+/*Logo*/
+.logo img{height: 186px;margin-top: 10px;}
+.mainads{display: inline-block;}
+/*Call today*/
+.tel .call-today,.facebook-like{font-size:16px;}
+.tel .tel-number{font-size:18px;display:inline-block;}
+.tel{}
+.mainadborder{background-color: #fff;padding: 5px;border-radius: 5px;}
+/*Menu*/
+.active a{color:green;}
+ul li{text-decoration:none;display:inline-block;}
+li a{color:#1a2f4d;font-size:18px;margin-right:24px;}
+.nav li a{color:#666;}
+li:last-child a{margin-right:0;}
+li a:hover{text-decoration:none;color:#4444c9;}
+.carousel-inner div img, li div img{cursor:pointer;}
+.menu{background-color: #fff;
+box-shadow: 1px -5px 5px #ddd;
+position: relative;
+width: 100%;
+left: 0px;
+bottom: 0px;
+color: #1a2f4d;
+font-size: 14px;
+padding: 30px 0;
+z-index: 20;
+position: fixed;
+left: 50%;
+top: 0px;
+height: 90px;
+width: 40%;
+background: #fff;
+opacity: 0.7;
+border-radius: 0px 0px 20px 20px;}
+ul{padding-left:0;z-index:12;}
+.menu ul{padding-top: 16px;padding-left: 52px;font-weight:bold;}
+.yachtlist ul li{cursor:pointer;color:#fff;}
+.yachtlist ul li:hover{color:red;}
+/*HOME*/
+/*Banner*/
+.banner{background-image:url('../img/sprite.png');background-position: 0px -757px;height:240px;display:none;}
+.address{font-size:18px;}
+/*Areas*/
+.practice-area{color:#222;margin-bottom:0;}
+.area-examples{color:#adbcd1;font-size:16px;}
+.areas{margin-bottom:10px;cursor:pointer;padding:5px 0px 10px;}
+.area-click{cursor:pointer;padding:5px 30px 0px;}
+.areas:last-child{background-image:none;}
+.practice-area-preview{color:#444;padding:10px 0;}
+
+.fundo{position:absolute;left:0;top:0;width: 124%;
+height: 129%;}
+
+
+
+.starup
+{animation:mymove 3s infinite;-webkit-animation:mymove 3s infinite; /*Safari and Chrome*/}
+
+@keyframes mymove
+{from {left:0px;}to {left:200px;}}
+
+@-webkit-keyframes mymove /*Safari and Chrome*/
+{0% {opacity:0.3;}
+50% {opacity:1;}
+100% {opacity:0.3;}}
+
+.star2
+{animation:mymove 4s infinite;-webkit-animation:mymove 4s infinite; /*Safari and Chrome*/}
+
+@keyframes mymove
+{from {left:0px;}to {left:200px;}}
+
+@-webkit-keyframes mymove /*Safari and Chrome*/
+{0% {opacity:0.5;}
+50% {opacity:1;}
+100% {opacity:0.5;}}
+
+.stardown
+{animation:mymove 2s infinite;-webkit-animation:mymove 2s infinite; /*Safari and Chrome*/}
+
+@keyframes mymove
+{from {left:0px;}to {left:200px;}}
+
+@-webkit-keyframes mymove /*Safari and Chrome*/
+{0% {opacity:0.5;}
+50% {opacity:1;}
+100% {opacity:0.5;}}
+
+
+.star1, .star2, .star3{position: absolute;left: 44%;top: 20%;height: 2%;}
+.star4, .star5{position: absolute;left: 24%;top: 30%;height: 1.5%;}
+.star6, .star7{position: absolute;left: 34%;top: 40%;height: 2%;}
+.star8, .star9{position: absolute;left: 44%;top: 50%;height: 1.5%;}
+.star10, .star11{position: absolute;left: 24%;top: 50%;height: 4%;}
+.star12, .star13{position: absolute;left: 24%;top: 30%;height: 2%;}
+.star14, .star15{position: absolute;left: 28%;top: 77%;height: 1.5%;}
+.star16, .star17{position: absolute;left: 56%;top: 55%;height: 5%;}
+.star18, .star19{position: absolute;left: 74%;top: 70%;height: 2%;}
+.star20, .star21{position: absolute;left: 76%;top: 56%;height: 1%;}
+.star22, .star23{position: absolute;left: 32%;top: 42%;height: 3.5%;}
+.star24, .star25{position: absolute;left: 42%;top: 63%;height: 1.5%;}
+.star26, .star27{position: absolute;left: 96%;top: 37%;height: 2%;}
+.star28, .star29{position: absolute;left: 24%;top: 30%;height: 1%;}
+.star30, .star31{position: absolute;left: 76%;top: 35%;height: 8%;}
+.star32, .star33{position: absolute;left: 54%;top: 24%;height: 2%;}
+.star34, .star35{position: absolute;left: 18%;top: 67%;height: 6%;}
+.star36, .star37{position: absolute;left: 42%;top: 57%;height: 1.5%;}
+.star38, .star39{position: absolute;left: 22%;top: 65%;height: 1.5%;}
+.star40, .star41{position: absolute;left: 26%;top: 55%;height: 2%;}
+.star42, .star43{position: absolute;left: 64%;top: 60%;height: 1%;}
+
+.sol1{z-index:5;}
+.sol2{z-index:4;}
+
+.sol3{z-index:1;}
+.sol5{z-index:2;}
+.sol6{z-index:3;}
+
+
+
+.audience-illustration{background-image:url('../img/sprite.png');background-position: -63px -3193px;}
+.retirement-illustration{background-image:url('../img/sprite.png');background-position: -66px -3644px;}
+.family-illustration{background-image:url('../img/sprite.png');background-position: -1px -2393px;}
+.criminal-illustration{background-image:url('../img/sprite.png');background-position: -66px -2828px;}
+.criminal-illustration,.family-illustration, .retirement-illustration, .audience-illustration{height:249px;border: 8px solid #fff;box-shadow: 1px 1px 3px #aaa;width: 232px;}
+.arrow-left{background-image:url('../img/sprite.png');background-position: 0px -230px;width: 50px;height: 194px;}
+.arrow-right{background-image:url('../img/sprite.png');background-position: 24px -526px;width: 71px;height: 194px;}
+.carousel-thumbnails .arrow-left{background-position: 15px -279px;width:90px;} 
+.carousel-thumbnails .arrow-right{background-position: 24px -578px;} 
+a:hover{text-decoration:none;}
+
+/*AREAS SECTION*/
+.area-arrow{font-size:13px;}
+.panel-body{color:#666}
+
+/*PROFILE*/
+.attorney-picture{background-image:url('../img/sprite.png');background-position: -1px -1899px;height:300px;width: 372px;
+margin-bottom: 24px;border: 13px solid #fff;
+box-shadow: 1px 3px 7px #aaa;}
+.attorney-name{font-size:20px;}
+.attorney-profile{color:#666;margin:75px 0 10px;}
+
+/*FOOTER*/
+.logo-trasparent{opacity:0.75;background-image:url('../img/sprite.png');
+background-position: 0px 0px;height: 95px;width:305px;}
+.contact{margin:20px 0;}
+.copyright{color:#adbcd1;}
+.especialies{margin-top: 10px;}
+.footer{background-color:#fff;box-shadow: 1px -5px 5px #ddd;position:relative;width:100%;
+	left:0px;bottom:0px;color:#1a2f4d;font-size:14px;padding: 30px 0;z-index:20;}
+
+.footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:90px;
+   width:100%;
+   background:#fff;
+   opacity:0.7;
+}
+
+/* IE 6 */
+* html .footer {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}	
+
+/*MEDIA QUERY*/
+
+@media (max-width: 1579px) { .areas{padding-left:0;background-image:none;} 
+.sol1, .sol2, .sol3, .sol4, .sol5, .sol6{height:90%;border:none;}
+.sol4{display:none;}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 979px) { 
+	.areas{padding-left:0;background-image:none;margin-bottom:10px;}
+	.container{width:100%;}
+	.address, .phones{margin-bottom:20px;}
+	.tel{float:left;}
+	.logo{background-position: 0px -521px;}
+	.logo-trasparent{background-position: 0px -1192px;}
+	li a{font-size:18px;}
+	li{margin-bottom:10px;}
+	.header .row:first-child{margin-top:10px;}
+ }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { ul li{display:block;}
+	.menu{float:left!important;text-align:left;}
+	.tel{float:left!important;text-align:left;}
+ }
+
+/* Landscape phones and down */
+@media (max-width: 277px) {
+	.logo{background-position: 0px -263px;}
+	.logo-trasparent{background-position: 0px -1264px;}
+ }
+
